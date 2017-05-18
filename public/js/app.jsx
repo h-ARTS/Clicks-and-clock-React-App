@@ -82,7 +82,7 @@ class Clock extends React.Component {
      render() {
           return (
                <div>
-                    <h1 className="display-3">Hello React State</h1>
+                    <h1 className="display-3">Clicks and Clock</h1>
                     <FormattedDate date={this.state.date} />
                     <Clicks />
                </div>
